@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body style="background-color:orange;">
+
+    <header>
+            <div class="heading">
+                <h1 style="text-align:center">Banaao - A Makers'​ Playground</h1>
+                <h2 style="text-align:center">Sentiment Analysis</h2>
+                <p style="text-align:center">Training Accuracy - 97.99% | Testing Accuracy - 82.94%</p>
+            </div>
+            <div class="textbox">
+                <form action="{{ url_for('predict')}}" method="POST">
+                    <p style="text-align:center">Enter Your Message Here</p>
+                    <textarea name="message" rows="6" cols="50">
+
+                    </textarea>
+                    <br>
+                    <input type="submit" class="btn-info" value="predict">
+                </form>
+            </div>
+    </header>
+</body>
+</html>

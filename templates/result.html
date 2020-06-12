@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body style="background-color:yellow;">
+    <header>
+        <div class="heading">
+            <h1 style="text-align:center">Result</h1>
+
+    </header>
+    </div>
+        <div class="results">
+              {% if prediction == 1%}
+	            <h2 style="color:red;">Message is Negative</h2>
+              {% elif prediction == 0%}
+	            <h2 style="color:blue;">Message is Positive</h2>
+              {% endif %}
+
+	    </div>
+</body>
+</html>
