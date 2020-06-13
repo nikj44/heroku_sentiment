@@ -5,7 +5,6 @@ import pandas as pd
 import string
 import re
 import tensorflow.keras
-import tensorflow as tf
 from tensorflow.keras.layers import LSTM
 from tensorflow.keras.layers import Dense, Embedding
 from tensorflow.keras.models import Sequential
